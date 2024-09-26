@@ -10,7 +10,7 @@ Clique no link abaixo para abrir o notebook diretamente no Google Colab:
 
 ## Estrutura do Projeto
 
-### 1 .Definição do Problema
+### 1 . Definição do Problema
 O problema envolve a previsão de assinatura de um depósito a prazo pelos clientes com base em características demográficas, financeiras e histórico de campanhas. É um problema de classificação binária.
 
 ### 2. Análise de Dados
