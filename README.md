@@ -83,7 +83,19 @@ Técnicas de balanceamento são aplicadas para lidar com a desproporção entre 
 
 ## Conclusão
 
-A análise forneceu insights importantes sobre o comportamento dos clientes em campanhas anteriores e identificou variáveis críticas como saldo bancário e duração da chamada. O tratamento de outliers e a normalização melhoraram a qualidade do dataset, preparando-o para a etapa seguinte de modelagem preditiva.
+O projeto analisou uma campanha bancária visando prever o comportamento dos clientes em relação à assinatura de um depósito a prazo. Através de uma abordagem estruturada de ciência de dados, aplicamos diversas técnicas para preparar, limpar e transformar os dados, garantindo uma base sólida para a modelagem preditiva.
+
+Principais insights:
+
+Variáveis Críticas: A análise indicou que atributos como saldo bancário, duração da chamada e o histórico de interações anteriores foram determinantes no comportamento dos clientes. Essas variáveis apresentaram forte correlação com a decisão de assinar o produto financeiro.
+
+Tratamento de Outliers e Normalização: Remover outliers e aplicar normalização garantiram que os dados fossem representativos e equilibrados, minimizando distorções durante a modelagem.
+
+Desbalanceamento da Classe Y: O dataset original apresentava um desbalanceamento significativo na variável Y, com uma grande maioria de clientes que não assinaram o depósito. Para corrigir isso, aplicamos a técnica de SMOTE, que gerou exemplos sintéticos da classe minoritária, equilibrando a distribuição das classes e permitindo que o modelo aprenda de forma mais eficiente sobre ambas as classes.
+
+Pré-processamento Robusto: Um pipeline consistente foi implementado, abrangendo desde a criação de categorias até o one-hot encoding das variáveis categóricas, além da separação adequada entre treino e teste. Isso assegura que o modelo tenha uma performance mais robusta e generalizável.
+
+Com esses tratamentos, os dados estão prontos para a fase de modelagem, onde poderão ser aplicados algoritmos de classificação para prever com mais precisão a probabilidade de um cliente assinar o depósito a prazo. O foco em boas práticas de ciência de dados, como o balanceamento de classes e a normalização, aumenta a confiabilidade dos resultados.
 
 **Observação**: Todas as análises e comentários detalhados podem ser encontrados no notebook, fornecendo explicações aprofundadas sobre cada etapa do processo.
 
